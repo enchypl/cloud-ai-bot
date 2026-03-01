@@ -1,0 +1,86 @@
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+!gradle/wrapper/gradle-wrapper.jar
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+.history/
+*.code-workspace
+
+# macos
+
+*.DS_Store
+
+# windows
+
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# linux
+
+.fuse_hidden*
+.Trash-*/
+
+# fabric
+
+run/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+*.log
+
+# local/private configuration
+
+.env
+.env.*
+!.env.example
+.envrc
+*.local
+local.properties
+gradle.properties.local
+private.properties
+secrets.properties
+
+# credentials and key material
+
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# temporary/editor swap
+
+*.swp
+*.swo
+*~
