@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "cloud-client-mod",
+	"version": "1.0.0",
+	"name": "Cloud Client Mod",
+	"description": "A humanized AI-bridge for bypassing anticheats on 2b2t.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.example.CloudClientMod"
+		]
+	},
+	"mixins": [
+		"cloud-client-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
